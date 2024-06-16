@@ -2,17 +2,17 @@
 #include <iostream>
 
 long get_remaining_bits(FILE* file) {
-    // Enregistrer la position actuelle du curseur de lecture
+    // Save the current position of the cursor
     long currentPos = ftell(file);
 
-    // Aller à la fin du fichier pour obtenir sa taille
+    // Go to the end of the file
     fseek(file, 0, SEEK_END);
     long fileSize = ftell(file);
 
-    // Remettre le curseur de lecture à sa position initiale
+    // Go back to the previous position
     fseek(file, currentPos, SEEK_SET);
 
-    // Calculer le nombre de bits restants à lire
+    // Calculate the remaining bits
     long remainingBytes = fileSize - currentPos;
     long remainingBits = remainingBytes * 8;
 

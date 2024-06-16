@@ -4,6 +4,7 @@
 #include <string>
 #include <cstdint>
 
+// Shared constants between the client and the server
 const std::string NAME_FILE_PUBLIC_KEY = "cloud.key";
 const std::string NAME_FILE_WITH_CIPHER_BANNED_IPS = "banned_ip.data";
 const std::string NAME_FILE_WITH_CIPHER_NETWORK_FLOW = "ip_to_analyze.data";
