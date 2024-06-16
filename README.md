@@ -18,6 +18,7 @@ This project is a proof of concept of firewall that use homomorphic encryption t
 ## Compiling
 
 > g++ client.cpp utils.cpp -o client.elf -ltfhe-spqlios-fma
+
 > g++ server.cpp utils.cpp -o server.elf -ltfhe-spqlios-fma
 
 ## Execute
