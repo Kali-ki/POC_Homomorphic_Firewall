@@ -25,11 +25,11 @@ This project is a proof of concept of firewall that use homomorphic encryption t
 
 - > ./client.elf initialize
 
-Create server key and secret key + Encrypt banned IP addresses in a file.
+Create server key and secret key + Encrypt banned IP (banned_ip.txt) addresses in a file.
 
 - > ./client.elf analyze
 
-Encrypt network flux to analyze in a file.
+Encrypt network flux (networkflow.txt) to analyze in a file.
 
 - > ./server.elf
 
