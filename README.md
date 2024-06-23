@@ -5,7 +5,7 @@ This project is a proof of concept of firewall that use homomorphic encryption t
 # 💻 Install
 
 - `g++` command line
-- 🔗 [TFHE library](https://github.com/tfhe/tfhe)
+- 🔗 [TFHE library](https://github.com/tfhe/tfhe?tab=readme-ov-file#installation)
 
 # 🚀 Perform demonstation
 
