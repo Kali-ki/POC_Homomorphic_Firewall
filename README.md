@@ -7,6 +7,12 @@ This project is a proof of concept of firewall that use homomorphic encryption t
 - `g++` command line
 - 🔗 [TFHE library](https://github.com/tfhe/tfhe?tab=readme-ov-file#installation)
 
+# Important files
+
+- 📘 Networkflow to analyze : `networkflow.txt`
+
+- 📄 IP addresses to ban : `banned_ip.txt`
+
 # 🚀 Perform demonstation
 
 > chmod +x emulate.sh
